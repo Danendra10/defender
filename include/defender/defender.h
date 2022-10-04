@@ -26,10 +26,10 @@ extern "C"
 
     } def_data_t;
 
-    void def_prep_kickoff_home(def_data_t *data, uint8_t *ret);
-    void def_start_kickoff_home(def_data_t *data, uint8_t *ret);
+    void DefPrepKickoffHome(def_data_t *data, uint8_t *ret);
+    void DefKickoffHome(def_data_t *data, uint8_t *ret);
 
-    void def_run(def_data_t *data, uint8_t *ret);
+    void DefRun(def_data_t *data, uint8_t *ret);
 
 #ifdef __cplusplus
 }
