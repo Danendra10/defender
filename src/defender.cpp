@@ -2,8 +2,6 @@
 
 void DefRun()
 {
-    printf("=== DefRun ===\n");
-    // printf("Game status: %d\n", game_status);
     switch (game_status)
     {
     case status_iddle_2:
